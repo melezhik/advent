@@ -5,9 +5,9 @@ integrated with many programming languages. So if you come from none Raku langua
 
 In this post I'll show you have one can effectively mix Bash scripts and Raku language using Sparrow.
 
-The idea of Sparrow chose the language that fits best to your domain and let's Raku orchestrate your code on high level.
+The idea of Sparrow - to choose the language that fits best to your domain and let Raku orchestrate your code on high level.
 
-Let's get started
+Let's get started.
 
 ---
 
@@ -69,6 +69,12 @@ $ s6 --task-run .
 [sparrowtask] :: run sparrow task .
 [sparrowtask] :: run thing .
 [.] :: hello from Shell
+```
+
+To pass multiple parameters through a command line, use `,` delimiter:
+
+```
+$ s6 --task-run .@language=Raku,version=2020.10
 ```
 
 # Running Bash as a Raku function
