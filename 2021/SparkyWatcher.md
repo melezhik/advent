@@ -22,8 +22,7 @@ Ready to dive in?
 So holiday season is approaching and Santa is busy, he wants to
 send all his gifts all around the world. 
 
-Elfs are helping him:
-
+Elfs are helping him. Elfs need host file to know where to deliver gifts:
 
 `hosts.raku`:
 
@@ -54,4 +53,34 @@ Elfs are helping him:
     ),
   )
 ]
+```
+
+# Sparky scenario
+
+Sparky scenario - is gift that is being presented to any location,
+listed in host file. And I forgot to say, elfs speak some Raku language as well:
+
+`sparrowfile`
+
+
+
+```raku
+
+say tags()<greeting>, " ", @tags<country>
+
+```
+
+# Sparrowdo - elfs' vehicle
+
+Sparrowdo is a handy and ubiquitous elfs' vehicle, shipping Santa's gifts and 
+sometime elfs as well to desired locations:
+
+
+```bash
+sparrowdo --host=hosts.raku
+```
+
+Sparrowdo works fine with Sparky, pushing asynchronous jobs for every host ( or country ):
+
+```
 ```
