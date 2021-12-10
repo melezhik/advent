@@ -40,7 +40,7 @@ Elfs are helping him. Elfs need host file to know where to deliver gifts:
     host => "localhost",
     tags => %(
       country => "Finland",
-      greeting => "Hyvää Uutta Vuotta!" 
+      greeting => "Hyvää Uutta Vuotta!",
       name => "HappyNewYearFinland",
     ),
   ),
@@ -48,7 +48,7 @@ Elfs are helping him. Elfs need host file to know where to deliver gifts:
     host => "localhost",
     tags => %(
       country => "US",
-      greeting => "Happy New Year"
+      greeting => "Happy New Year",
       name => "HappyNewYearUS",
     ),
   )
@@ -66,7 +66,7 @@ listed in host file. And I forgot to say, elfs speak some Raku language as well:
 
 ```raku
 
-say tags()<greeting>, " ", @tags<country>
+say tags()<greeting>, " ", @tags<country>;
 
 ```
 
@@ -83,4 +83,15 @@ sparrowdo --host=hosts.raku
 Sparrowdo works fine with Sparky, pushing asynchronous jobs for every host ( or country ):
 
 ```
+# sparrowdo output here
+```
+
+
+# Sparky UI - Santa's dashboard
+
+```
+git clone git@github.com:melezhik/sparky.git
+cd sparky
+zef install . --/test
+cro run
 ```
