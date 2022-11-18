@@ -4,7 +4,9 @@ New year and Christmas is a fun time when the whole family gets together by dinn
 
 Let me introduce some fun and young member of a Raku family called SparrowCI - super flexible and fun to use CI service.
 
-To visit SparrowCI - got https://ci.sparrowhub.io web site and get a login using your GitHub credentials.
+To visit SparrowCI - got https://ci.sparrowhub.io web site and get a login using your GitHub credentials:
+
+![login](https://raw.githubusercontent.com/melezhik/advent/master/images/0427F849-1888-42EB-8414-99F736E8B68C.jpeg)
 
 # Pipelines of fun
 
@@ -74,7 +76,9 @@ git push -u origin main
 
 Once a module in a GitHub, let's register it in SparrowCI:
 
-Go to "my repos", then a repository you want to build - https://github.com/melezhik/sparrow-bird
+Go to "my repos", then a repository you want to build - https://github.com/melezhik/sparrow-bird :
+
+![add repo](https://raw.githubusercontent.com/melezhik/advent/master/images/Screen%20Shot%202022-11-18%20at%204.44.14%20PM.png)
 
 
 # ...
