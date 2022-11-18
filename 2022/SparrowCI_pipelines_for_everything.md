@@ -30,7 +30,7 @@ cat << HERE > META6.json
   "license" : "Artistic-2.0",
   "name" : "Sparrow Bird",
   "provides" : {
-    "Teddy::Bear" : "lib/Sparrow/Bird.pm6"
+    "Sparrow::Bird" : "lib/Sparrow/Bird.rakumod"
   },
   "version" : "0.0.1"
 }
@@ -89,7 +89,7 @@ Finally, we will see something like this:
 
 # That is it?
 
-Well it's small new year story not pretending to do a boring documentation stuff. But as the title say - SparrowCI pipelines for _everything_, 
+Well, this is a small new year story not pretending to be a boring technical stuff. But as the title say - SparrowCI pipelines for _everything_, 
 not just for building Raku modules ...
 
 Checkout https://ci.sparrowhub.io to see all fun SparrowCI features and happy holidays!
