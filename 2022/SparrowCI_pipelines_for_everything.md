@@ -89,7 +89,7 @@ sending Christmas gifts to all it's users. So we will see something like this:
 
 # That is it?
 
-Well it's small new year story not pretending to do a boring documentation stuff. But as the title say - SparrowCI piplines for _everything_, 
+Well it's small new year story not pretending to do a boring documentation stuff. But as the title say - SparrowCI pipelines for _everything_, 
 not just for building Raku modules ...
 
 Checkout https://ci.sparrowhub.io to see all fun SparrowCI features and happy holidays!
