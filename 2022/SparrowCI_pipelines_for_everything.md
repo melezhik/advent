@@ -20,7 +20,7 @@ Let's create some Christma gift module and then build it:
 ```bash
 mkdir SparrowBird
 cd SparrowBird
-git iit
+git init 
 cat << HERE > META6.json
 {
   "authors" : [
@@ -39,8 +39,48 @@ mkdir -p lib/Sparrow
 
 cat << HERE > lib/Sparrow/Bird.rakumod
 unit module Sparrow::Bird;
+
+
+```
+
+The add some SparrowCI pipeline to build a project:
+
+```bash
+cat << HERE > sparrow.json
+tasks:
+  -
+    name: build-sparrow
+    default: true
+    language: Bash
+    code: |
+      set -e
+      cd source/
+      zef test .
+HERE
+```
+
+And finnaly let's commit everything:
+
+```bash
+git add .
+git commit -a -m "my sparrow bird module intial commit"
+
+git remote add origin git@github.com:melezhik/sparrow-bird.git
+git branch -M main
+git push -u origin main
 ```
 
 Once a module in a GitHub, let's register it in SparrowCI:
 
 Go to "my repos", then a repository you want to build - https://github.com/melezhik/sparrow-bird
+
+
+# ...
+
+Now it's time to see the very fisrt build, give SparrowCI a minutes as it gets busy at this time
+sending Christmas gifts to all his friends and finally get something like this:
+
+
+```
+....
+```
