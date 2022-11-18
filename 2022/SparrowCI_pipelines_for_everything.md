@@ -6,7 +6,7 @@ Let me introduce some fun and young member of a Raku family called SparrowCI - s
 
 To visit SparrowCI - got https://ci.sparrowhub.io web site and get a login using your GitHub credentials:
 
-![login](https://raw.githubusercontent.com/melezhik/advent/master/images/0427F849-1888-42EB-8414-99F736E8B68C.jpeg)
+![login](https://raw.githubusercontent.com/melezhik/advent/master/images/sparrowci/login.jpeg)
 
 # Pipelines of fun
 
@@ -77,14 +77,14 @@ Once a module in a GitHub, let's register it in SparrowCI:
 
 Go to "my repos", then a repository you want to build - https://github.com/melezhik/sparrow-bird :
 
-![add repo](https://raw.githubusercontent.com/melezhik/advent/master/images/Screen%20Shot%202022-11-18%20at%204.44.14%20PM.png)
+![add repo](https://raw.githubusercontent.com/melezhik/advent/master/images/sparrowci/add-repo.png)
 
 # The Gift
 
 Now it's time to see the very first build, please allow SparrowCI a minute as it being very busy at this time
 sending Christmas gifts to all it's users. So we will see something like this:
 
-![report](https://raw.githubusercontent.com/melezhik/advent/master/images/2CFE8194-119F-4FD9-A8C9-6C029DA3EBCE.jpeg)
+![report](https://raw.githubusercontent.com/melezhik/advent/master/images/sparrowci/report.jpeg)
 
 
 # That is it?
