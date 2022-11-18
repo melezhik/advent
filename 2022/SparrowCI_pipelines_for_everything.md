@@ -81,8 +81,16 @@ Go to "my repos", then a repository you want to build - https://github.com/melez
 
 # The Gift
 
-Now it's time to see the very first build, give SparrowCI a minutes as it gets busy at this time
-sending Christmas gifts to all his friends and finally get something like this:
+Now it's time to see the very first build, please allow SparrowCI a minute as it being very busy at this time
+sending Christmas gifts to all it's users. So we will see something like this:
+
+![report](https://raw.githubusercontent.com/melezhik/advent/master/images/2CFE8194-119F-4FD9-A8C9-6C029DA3EBCE.jpeg)
 
 
-![report]()
+# That is it?
+
+Well it's small new year story not pretending to do a boring documentation stuff. But as the title say - SparrowCI piplines for _everything_.
+
+Checkout https://ci.sparrowhub.io to see all fun SparrowCI features and happy holidays!
+
+
