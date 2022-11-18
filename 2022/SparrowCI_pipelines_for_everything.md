@@ -83,7 +83,7 @@ Go to "my repos", then a repository you want to build - https://github.com/melez
 Now it's time to see the very first new gift wrapped in a holiday paper, 
 please allow SparrowCI a minute do his job, as he is being very busy wrapping up other holiday gifts.
 
-Finally, we will see something like this:
+Finally, we will [see](https://ci.sparrowhub.io/report/1849) something like this:
 
 ![report](https://raw.githubusercontent.com/melezhik/advent/master/images/sparrowci/report.jpeg)
 
