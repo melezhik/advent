@@ -49,7 +49,7 @@ HERE
 The add some SparrowCI pipeline to build a project:
 
 ```bash
-cat << HERE > sparrow.json
+cat << HERE > sparrow.yaml
 tasks:
   -
     name: build-sparrow
@@ -85,6 +85,4 @@ Now it's time to see the very first build, give SparrowCI a minutes as it gets b
 sending Christmas gifts to all his friends and finally get something like this:
 
 
-```
-....
-```
+![report]()
