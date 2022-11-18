@@ -17,7 +17,6 @@ service and share results with others.
 
 Let's create some new year gift module and then build it:
 
-
 ```bash
 mkdir SparrowBird
 cd SparrowBird
@@ -58,7 +57,7 @@ tasks:
     code: |
       set -e
       cd source/
-      zef test .
+      zef install .
 HERE
 ```
 
