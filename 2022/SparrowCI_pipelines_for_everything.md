@@ -2,9 +2,9 @@
 
 New year and Christmas is a fun time when the whole family gets together by dinner table and have some good time.
 
-Let me introduce some fun and young member of a Raku family called SparrowCI - super flexible and fun to use CI service.
+Let me introduce some fun and young member of a Raku family - a guy named SparrowCI - super flexible and fun to use CI service.
 
-To visit SparrowCI - got https://ci.sparrowhub.io web site and get a login using your GitHub credentials:
+To find SparrowCI lad - go to https://ci.sparrowhub.io web site and get a login using your GitHub credentials:
 
 ![login](https://raw.githubusercontent.com/melezhik/advent/master/images/sparrowci/login.jpeg)
 
@@ -12,7 +12,7 @@ To visit SparrowCI - got https://ci.sparrowhub.io web site and get a login using
 
 SparrowCI provides you with some DSL to built a CI for your Raku modules. 
 
-For none devops people CI - means continues integration - a process allowing to test your code in some centralized 
+For none devops people CI - means "continuous integration" - a process allowing to test your code in some centralized 
 service and share results with others.
 
 Let's create some Christmas gift module and then build it:
@@ -46,7 +46,7 @@ HERE
 
 ```
 
-The add some SparrowCI pipeline to build a project:
+Then SparrowCI guy to wrap our gift into a new year paper:
 
 ```bash
 cat << HERE > sparrow.yaml
@@ -62,7 +62,7 @@ tasks:
 HERE
 ```
 
-And finally let's commit everything:
+And finally let's commit everything (aka send to Santa):
 
 ```bash
 git add .
@@ -73,7 +73,7 @@ git branch -M main
 git push -u origin main
 ```
 
-Once a module in a GitHub, let's register it in SparrowCI:
+Once a module in a GitHub (aka Laplandia), let's register it in SparrowCI:
 
 Go to "my repos", then a repository you want to build - https://github.com/melezhik/sparrow-bird :
 
@@ -81,11 +81,12 @@ Go to "my repos", then a repository you want to build - https://github.com/melez
 
 # The Gift
 
-Now it's time to see the very first build, please allow SparrowCI a minute as it being very busy at this time
-sending Christmas gifts to all it's users. So we will see something like this:
+Now it's time to see the very first new gift wrapped in a holiday paper, 
+please allow SparrowCI a minute do his job, as he is being very busy wrapping up other Christmas gifts.
+
+Finally we will see something like this:
 
 ![report](https://raw.githubusercontent.com/melezhik/advent/master/images/sparrowci/report.jpeg)
-
 
 # That is it?
 
