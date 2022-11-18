@@ -1,6 +1,6 @@
 # SparrowCI pipelines for everything
 
-New year and Christmas is a fun time when the whole family gets together by dinner table and have some good time.
+New year is a fun time when the whole family gets together by dinner table and have some good time.
 
 Let me introduce some fun and young member of a Raku family - a guy named SparrowCI - super flexible and fun to use CI service.
 
@@ -15,7 +15,7 @@ SparrowCI provides you with some DSL to built a CI for your Raku modules.
 For none devops people CI - means "continuous integration" - a process allowing to test your code in some centralized 
 service and share results with others.
 
-Let's create some Christmas gift module and then build it:
+Let's create some new year gift module and then build it:
 
 
 ```bash
@@ -73,7 +73,7 @@ git branch -M main
 git push -u origin main
 ```
 
-Once a module in a GitHub (aka Laplandia), let's register it in SparrowCI:
+Once a module in a GitHub (aka Lapland), let's register it in SparrowCI:
 
 Go to "my repos", then a repository you want to build - https://github.com/melezhik/sparrow-bird :
 
@@ -82,9 +82,9 @@ Go to "my repos", then a repository you want to build - https://github.com/melez
 # The Gift
 
 Now it's time to see the very first new gift wrapped in a holiday paper, 
-please allow SparrowCI a minute do his job, as he is being very busy wrapping up other Christmas gifts.
+please allow SparrowCI a minute do his job, as he is being very busy wrapping up other holiday gifts.
 
-Finally we will see something like this:
+Finally, we will see something like this:
 
 ![report](https://raw.githubusercontent.com/melezhik/advent/master/images/sparrowci/report.jpeg)
 
@@ -94,5 +94,3 @@ Well it's small new year story not pretending to do a boring documentation stuff
 not just for building Raku modules ...
 
 Checkout https://ci.sparrowhub.io to see all fun SparrowCI features and happy holidays!
-
-
