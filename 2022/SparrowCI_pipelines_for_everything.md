@@ -34,11 +34,13 @@ cat << HERE > META6.json
   },
   "version" : "0.0.1"
 }
-git add META6.json
+HERE
+
 mkdir -p lib/Sparrow
 
 cat << HERE > lib/Sparrow/Bird.rakumod
 unit module Sparrow::Bird;
+HERE
 
 
 ```
