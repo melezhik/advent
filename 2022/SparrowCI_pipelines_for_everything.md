@@ -12,11 +12,10 @@ To visit SparrowCI - got https://ci.sparrowhub.io web site and get a login using
 
 SparrowCI provides you with some DSL to built a CI for your Raku modules. 
 
-For none devops people CI - mean continues interation - a process allowing to test your code in some centralaized 
+For none devops people CI - means continues integration - a process allowing to test your code in some centralized 
 service and share results with others.
 
-Let's create some Christma gift module and then build it:
-
+Let's create some Christmas gift module and then build it:
 
 
 ```bash
@@ -63,11 +62,11 @@ tasks:
 HERE
 ```
 
-And finnaly let's commit everything:
+And finally let's commit everything:
 
 ```bash
 git add .
-git commit -a -m "my sparrow bird module intial commit"
+git commit -a -m "my sparrow bird module initial commit"
 
 git remote add origin git@github.com:melezhik/sparrow-bird.git
 git branch -M main
@@ -80,10 +79,9 @@ Go to "my repos", then a repository you want to build - https://github.com/melez
 
 ![add repo](https://raw.githubusercontent.com/melezhik/advent/master/images/Screen%20Shot%202022-11-18%20at%204.44.14%20PM.png)
 
+# The Gift
 
-# ...
-
-Now it's time to see the very fisrt build, give SparrowCI a minutes as it gets busy at this time
+Now it's time to see the very first build, give SparrowCI a minutes as it gets busy at this time
 sending Christmas gifts to all his friends and finally get something like this:
 
 
