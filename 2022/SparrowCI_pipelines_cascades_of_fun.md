@@ -99,3 +99,7 @@ and deliver package straight to it!
 
 ![secret](https://raw.githubusercontent.com/melezhik/advent/master/images/sparrowci/fez-upload.jpeg)
 
+# That is it?
+
+Yes and ... no you can read all that stuff in more boring, none holiday manner on
+[SparrowCI](https://ci.sparrowhub.io) site, but don't forget - SparrowCI is FUN.
