@@ -101,5 +101,5 @@ and [deliver](https://ci.sparrowhub.io/report/1930) package straight to it!
 
 # That is it?
 
-Yes and ... no you can read all that stuff in more boring, none holiday manner on
+Yes and ... no - you can read all that _technical_ stuff in more boring, none holiday manner on
 [SparrowCI](https://ci.sparrowhub.io) site, but don't forget - SparrowCI is FUN.
