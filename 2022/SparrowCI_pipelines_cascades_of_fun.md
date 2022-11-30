@@ -75,7 +75,7 @@ but don't worry! - Santa knows how to keep your secrets!
 ![secret](https://raw.githubusercontent.com/melezhik/advent/master/images/sparrowci/secret.png)
 
 
-Finally, SparrowCI [ties](https://github.com/melezhik/rakudist-teddy-bear/blob/master/sparrow.yaml) 
+Finally, SparrowCI [ties](https://github.com/melezhik/rakudist-teddy-bear/blob/0023787d0c0b6c7c7ac9e62e7b56b3be2ace35f3/sparrow.yaml#L12) 
 "package" and "publish" things together:
 
 `sparrow.yaml`:
