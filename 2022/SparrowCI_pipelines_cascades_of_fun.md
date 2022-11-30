@@ -23,7 +23,8 @@ tasks:
 ```
 
 Once a gift is [packed](https://ci.sparrowhub.io/report/1919) and ready, there is one little thing that is left.
-- And that is - send the gift to a Santa, to His wonderful -Raku-, sorry [lapland](https://raku.land)
+
+\- And that is - send the gift to a Santa, to His wonderful [(Raku|LAP)land](https://raku.land)
 
 So SparrowCI guys get quickly to, it as he knows who he does ( did not I tell you ,
 he is very knowledgeable? :-), and create a nifty script to publish things to 
@@ -68,8 +69,8 @@ tasks:
       dir: source
 ```
 
-Of course to publish package in Santa's store, SparrowCI lad needs to tell Santa's his secret 
-- aka fez token, but don't worry, Santa knows how to keep your secrets!
+Of course to publish a package in Santa's store, SparrowCI lad needs to tell Santa's his secret 
+\- aka fez token, but don't worry, Santa knows how to keep your secrets!
 
 ![secret](https://raw.githubusercontent.com/melezhik/advent/master/images/sparrowci/secret.png)
 
@@ -95,8 +96,3 @@ git push
 Remember, what should we say to Santa, once we see him? Yes - Happy New Year!
 
 This "magic" commit phrase will make our package be delivered to Santa's land:
-
-
-
-
- 
