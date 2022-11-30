@@ -2,10 +2,10 @@
 
 
 Remember the young in the previous SparrowCI story? We have not finished with him yet ...
-Because new year time is coming and brings us a lot of fun, or we can say
-cascades of fun ...
 
-So, our awesome SparrowCI pipelines plumber guy is busy with sending a git to his nephew:
+Because New Year time is coming and brings us a lot of fun, or we can say cascades of fun ...
+
+So, our awesome SparrowCI pipelines plumber guy is busy with sending a gift to his nephew:
 
 `sparrow.yaml`:
 
@@ -24,10 +24,10 @@ tasks:
 
 Once a gift is [packed](https://ci.sparrowhub.io/report/1919) and ready, there is one little thing that is left.
 
-\- And that is - send the gift to a Santa, to His wonderful [(Raku|LAP)land](https://raku.land)
+\- And that is - to send the gift to Santa, to His wonderful [(~~LAP~~|Raku)land](https://raku.land)
 
-So SparrowCI guys get quickly to, it as he knows who he does ( did not I tell you ,
-he is very knowledgeable? :-), and create a nifty script to publish things to 
+So, SparrowCI guys gets quickly to, and he knows what to do ( did not I tell you ,
+he is very knowledgeable? :-), creating a small nifty script to publish things to 
 Santa's land:
 
 `.sparrow/publish.yaml`
@@ -69,14 +69,14 @@ tasks:
       dir: source
 ```
 
-Of course to publish a package in Santa's store, SparrowCI lad needs to tell Santa's his secret 
-\- aka fez token, but don't worry, Santa knows how to keep your secrets!
+Didn't you notice, SparrowCI lad needs to tell Santa's his - fez-token- secret to do so, 
+but don't worry! - Santa knows how to keep your secrets!
 
 ![secret](https://raw.githubusercontent.com/melezhik/advent/master/images/sparrowci/secret.png)
 
 
 Finally, SparrowCI [ties](https://github.com/melezhik/rakudist-teddy-bear/blob/master/sparrow.yaml) 
-"package" with "publish":
+"package" and "publish" things together:
 
 `sparrow.yaml`:
 
@@ -85,7 +85,7 @@ Finally, SparrowCI [ties](https://github.com/melezhik/rakudist-teddy-bear/blob/m
 followup_job: .sparrow/publish.yaml
 ```
 
-... And, it's time to share some gifts:
+And, here we are, ready to share some gifts:
 
 
 ```bash
@@ -95,4 +95,9 @@ git push
 
 Remember, what should we say to Santa, once we see him? Yes - Happy New Year!
 
-This "magic" commit phrase will make our package be delivered to Santa's land:
+This "magic" commit phrase will open door in Santa's shop 
+and deliver package straight to it!
+
+
+
+
