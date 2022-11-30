@@ -95,9 +95,9 @@ git push
 Remember, what should we say to Santa, once we see him? Yes - Happy New Year!
 
 This "magic" commit phrase will open door in Santa's shop 
-and deliver package straight to it!
+and [deliver](https://ci.sparrowhub.io/report/1930) package straight to it!
 
-![secret](https://raw.githubusercontent.com/melezhik/advent/master/images/sparrowci/fez-upload.jpeg)
+![publish](https://raw.githubusercontent.com/melezhik/advent/master/images/sparrowci/fez-upload.jpeg)
 
 # That is it?
 
